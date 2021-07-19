@@ -1,0 +1,148 @@
+/*  Initialisation */
+* {
+  margin: 0;
+  padding: 0%;
+}
+/*   this is the header part   */
+.header {
+  /*  box modele*/
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(254, 255, 251);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header div {
+  display: flex;
+}
+.name {
+  color: rgb(224, 147, 160);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+.header img {
+  margin-left: 15%;
+  margin-right: 2%;
+  width: 6%;
+  height: 5;
+}
+header ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 0.8%;
+  list-style-type: none;
+}
+.liste {
+  color: gray;
+  font-family: fantasy;
+}
+/*   this is the main part section 1   */
+.article {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://media.istockphoto.com/photos/pink-millennial-cute-old-matte-grunge-faded-adobe-plaster-texture-picture-id1217216795?b=1&k=6&m=1217216795&s=170667a&w=0&h=oVMdl9nDj7w05Uwh51YkuEJ7a-glFb4WgM8ngqfI33s=);
+  background-size: 100%;
+  padding: 1%;
+}
+.choix {
+  width: 70%;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 10% 2% 10%;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+}
+.coeur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnLike {
+  width: 20px;
+  height: 20px;
+}
+.btnDelete {
+  width: 10px;
+  height: 10px;
+  margin-top: 15px;
+}
+.btn {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  border: none;
+  font-family: fantasy;
+}
+.section1 h3 {
+  text-align: center;
+}
+.total {
+  /*BOX MODEL*/
+  width: 28%;
+  margin: 2% 8% 2% -16%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  background-color: rgb(250, 246, 246);
+  background-image: url(https://www.pngitem.com/pimgs/m/75-754980_shopping-bags-shopping-bag-shopaholic-lady-happy-transparent.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 60%;
+}
+.total h5 {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  text-decoration-line: underline;
+  color: rgb(109, 12, 12);
+}
+.total h6 {
+  margin-top: 15%;
+  font-size: 20px;
+  text-align: center;
+}
+.total span {
+  margin: 0% 49%;
+}
+.total button {
+  background-color: pink;
+  margin: 7% 30%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+footer div {
+  /* Box moedel */
+  width: 40%;
+  margin: 3% 28%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: grey;
+  text-decoration-line: underline;
+}
+footer p {
+  text-align: center;
+  color: rgb(100, 197, 163);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
